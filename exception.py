@@ -1,7 +1,11 @@
-import  sys
+import sys
 
-x= int(input("X :"))
-y= int(input("y: "))
+try:
+    x= int(input("X :"))
+    y= int(input("y: "))
+except ValueError:
+    print("Error: invalid inout.")
+    sys.exit(1)
 
 try:
     result = x /y
