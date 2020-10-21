@@ -11,4 +11,6 @@ s.add(4)
 s.add(5)
 s.add(4)
 
-print(s)
+s.remove(4) #for remove from lis
+
+print(f"Count of Set Element is {len(s)}")
